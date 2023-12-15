@@ -1,0 +1,62 @@
+.content{
+    background-color: #304D30;
+}
+.content h1::after {
+    content: "|";
+    animation: typing 3s linear 1s infinite alternate;
+  }
+
+@keyframes typing {
+   
+    6% {
+      content: "u";
+    }
+    12% {
+      content: "uo";
+    }
+    18% {
+      content: "uot ";
+    }
+    24% {
+        content: "uote ";
+      }
+      32% {
+        content: "uotes ";
+      }
+      38% {
+        content: "uotes  ";
+      }
+      44% {
+        content: "uotes o ";
+      }
+      50% {
+        content: "uotes of ";
+      }
+      56% {
+        content: "uotes of t ";
+      }
+      62% {
+        content: "uotes of th ";
+      }
+      68% {
+        content: "uotes of the ";
+      }
+      76% {
+        content: "uotes of the D";
+      }
+      82% {
+        content: "uotes of the Da";
+      }
+      88% {
+        content: "uotes of the Day";
+      }
+      94% {
+        content: "uotes of the Day ";
+      }
+      100% {
+        content: "uotes of the Day ;;";
+      }
+  }
+  .ic{
+color: #EEC759;
+  }
